@@ -18,7 +18,8 @@ class HomePage extends ConsumerWidget {
           Container(
             width: double.infinity,
             height: 600,
-            color: _isHooked ? Colors.blue[100] : Colors.red[100],
+            color: Colors.red[100],
+            // color: _isHooked ? Colors.blue[100] : Colors.red[100],
             child: Stack(
               children: [
                 Positioned(
